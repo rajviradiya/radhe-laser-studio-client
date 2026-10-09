@@ -1,0 +1,10 @@
+# Radhe Laser Studio - Robots.txt
+# Controls web crawlers and protects private administrative endpoints
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://radhelaserstudio.com/sitemap.xml
